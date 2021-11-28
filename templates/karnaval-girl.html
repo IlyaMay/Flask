@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-<html lang="en">
+<html>
 <head>
     {% block title %} <title>{{"Карнавальные костюмы. Для девочек"}}</title>{% endblock %}
 </head>
@@ -55,11 +55,8 @@
                     <p1>Фея сказочная</p1>
                     <h1>2.200.р</h1>
                 </div>
-
-            {% include 'menu-karnaval.html' %}
-
         </div>
-
+{% include 'menu-karnaval.html' %}
 {% endblock %}
 </body>
 </html>
